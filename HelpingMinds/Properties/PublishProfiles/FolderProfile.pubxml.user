@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Rohit.Kawari\Documents\Publish\Helping Minds</_PublishTargetUrl>
+    <History>True|2022-07-23T20:35:00.6198758Z;True|2022-07-23T22:09:01.7762548+05:45;False|2022-07-23T22:08:05.0911728+05:45;False|2022-07-23T22:07:09.5282125+05:45;True|2022-07-22T15:34:01.1936796+05:45;True|2022-07-22T15:09:28.5386783+05:45;True|2022-07-22T15:06:41.9235080+05:45;True|2022-07-22T15:04:20.1461288+05:45;True|2022-07-22T14:41:03.4501672+05:45;True|2022-07-22T14:35:01.6255973+05:45;True|2022-07-22T14:28:03.1148932+05:45;False|2022-07-22T14:27:26.1583213+05:45;</History>
+  </PropertyGroup>
+</Project>
