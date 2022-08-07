@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBC3mT981WRtd0KInuOfa03PMn7AmtWI2SzR3BHeay6WkaagH7HbF1Wq2fZpceRpyyvRx86SRbOUKzjb7XXBJw==",
+  "dgSpecHash": "FF+5O2lp/edd4z+bdv95ppDmJAULFX5b9z5D7+tV6KMzCdTykNT/rjzRds2dXZUTa2GTJmBO/A8gXa731mleNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rohit.Kawari\\source\\repos\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
+  "projectFilePath": "C:\\Users\\Rohit.Kawari\\Documents\\Project\\Rahul\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rohit.Kawari\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rohit.Kawari\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

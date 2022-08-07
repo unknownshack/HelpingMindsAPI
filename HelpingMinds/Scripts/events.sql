@@ -1,0 +1,22 @@
+USE [HelpingMinds]
+GO
+
+/****** Object:  Table [dbo].[Events]    Script Date: 8/1/2022 8:37:03 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Events](
+	[eventId] [int] IDENTITY(1,1) NOT NULL,
+	[eventName] [nvarchar](max) NULL,
+	[eventDate] [date] NULL,
+ CONSTRAINT [eventId] PRIMARY KEY CLUSTERED 
+(
+	[eventId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+

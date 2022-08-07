@@ -15,4 +15,6 @@ using HelpingMinds.Models;
         public DbSet<HelpingMinds.Models.User> Users { get; set; }
 
         public DbSet<HelpingMinds.Models.Event> Events { get; set; }
+
+        public DbSet<HelpingMinds.Models.Reminder> Reminder { get; set; }
     }

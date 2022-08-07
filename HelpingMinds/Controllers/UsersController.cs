@@ -27,6 +27,15 @@ namespace HelpingMinds
             return await _context.Users.ToListAsync();
         }
 
+        [HttpPost("Create")]
+        public ActionResult CreateUser(User user)
+        {
+            _context.Users.Add(user);
+            _context.SaveChanges();
+
+            return CreatedAtAction("GetUser", new { id = user.userId }, user);
+        }
+
         // GET: api/Users/5
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
@@ -39,6 +48,24 @@ namespace HelpingMinds
             }
 
             return user;
+        }
+
+        [HttpPost("AdminLogin")]
+        public IActionResult AdminLogin(User user)
+        {
+            var loggedUser = _context.Users.Where(e => e.userName == user.userName && e.userPassword == user.userPassword).FirstOrDefault();
+            if (loggedUser == null)
+            {
+                return NotFound();
+            }
+            else if (loggedUser.isAdmin != true)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok();
+            }
         }
 
         // PUT: api/Users/5

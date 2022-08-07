@@ -7337,11 +7337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rohit.Kawari\\source\\repos\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
+      "projectUniqueName": "C:\\Users\\Rohit.Kawari\\Documents\\Project\\Rahul\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
       "projectName": "HelpingMinds",
-      "projectPath": "C:\\Users\\Rohit.Kawari\\source\\repos\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
+      "projectPath": "C:\\Users\\Rohit.Kawari\\Documents\\Project\\Rahul\\HelpingMinds\\HelpingMinds\\HelpingMinds.csproj",
       "packagesPath": "C:\\Users\\Rohit.Kawari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rohit.Kawari\\source\\repos\\HelpingMinds\\HelpingMinds\\obj\\",
+      "outputPath": "C:\\Users\\Rohit.Kawari\\Documents\\Project\\Rahul\\HelpingMinds\\HelpingMinds\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
