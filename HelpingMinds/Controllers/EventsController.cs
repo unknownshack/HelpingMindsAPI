@@ -47,6 +47,12 @@ namespace HelpingMinds
             return @event;
         }
 
+        [HttpGet("GetEventByDate/{month}/{year}")]
+        public async Task<ActionResult<IEnumerable<Event>>> GetEventByDate(int month, int year)
+        {
+            return await _context.Events.Where(x => x.eventDate.Year == year && x.eventDate.Month == month).ToListAsync();
+        }
+
         // PUT: api/Events/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
