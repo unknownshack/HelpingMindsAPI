@@ -10,7 +10,6 @@ namespace HelpingMinds.Models
     {
         [Key]
         public int reminderId { get; set; }
-        [Required]
         public int? eventId { get; set; }
 
         public DateTime? reminderDate { get; set; }
@@ -22,5 +21,8 @@ namespace HelpingMinds.Models
         public bool? completed { get; set; }
         public int? userId { get; set; }
         public bool? actualRepeat { get; set; }
+        public string? purpose { get; set; }
+        public bool? isonoroff { get; set; }
+        public string nonEventNote { get; set; }
     }
 }
