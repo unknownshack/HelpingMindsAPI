@@ -53,7 +53,7 @@ namespace HelpingMinds
         [HttpPost("AdminLogin")]
         public IActionResult AdminLogin(User user)
         {
-            var loggedUser = _context.Users.Where(e => e.userName == user.userName && e.userPassword == user.userPassword).FirstOrDefault();
+            var loggedUser = _context.Users.Where(e => e.email == user.email && e.userPassword == user.userPassword).FirstOrDefault();
             if (loggedUser == null)
             {
                 return NotFound();
@@ -102,7 +102,7 @@ namespace HelpingMinds
         [HttpPost]
         public int Login(User user)
         {
-            var loggedUser = _context.Users.Where(e => e.userName == user.userName && e.userPassword == user.userPassword).FirstOrDefault();
+            var loggedUser = _context.Users.Where(e => e.email == user.email && e.userPassword == user.userPassword).FirstOrDefault();
             if (loggedUser != null)
             {
                 return loggedUser.userId;
