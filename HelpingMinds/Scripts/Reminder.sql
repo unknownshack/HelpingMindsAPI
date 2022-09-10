@@ -23,8 +23,5 @@ PRIMARY KEY CLUSTERED
 ) ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[Reminder]  WITH CHECK ADD FOREIGN KEY([eventId])
-REFERENCES [dbo].[Events] ([eventId])
-GO
 
 

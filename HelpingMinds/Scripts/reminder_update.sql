@@ -12,4 +12,11 @@ GO
 alter table reminder
 add numOfTimeRepeat int,
 uuid varchar(200),
-completed bit
+completed bit,
+reminderDate datetime,
+actualRepeat bit,
+purpose varchar(30),
+isonoroff bit,
+nonEventNote varchar(40),
+userId int,
+foreign key(userId) references Users(userId)
